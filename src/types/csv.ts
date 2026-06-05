@@ -21,4 +21,6 @@ type LetterboxdMovie = {
     "Watched Date": string
 }
 
-export type { Movie, NetflixMovie, LetterboxdMovie }
+type Status = 'idle' | 'uploading' | 'enriching' | 'done' | 'error'
+
+export type { Movie, NetflixMovie, LetterboxdMovie, Status }

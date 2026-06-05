@@ -1,4 +1,4 @@
-import type { Movie, NetflixMovie, LetterboxdMovie } from '../types';
+import type { Movie, NetflixMovie, LetterboxdMovie } from '../types/csv';
 
 function normalizeNetflix(data: NetflixMovie[]) : Movie[] {
 
